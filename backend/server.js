@@ -23,7 +23,7 @@ connection.once('open', () => {
 })
 
 const exercisesRouter = require('./routes/exercises');
-const userRouter = require('./routes/user');
+const userRouter = require('./routes/users');
 
 app.use('/exercises', exercisesRouter);
 app.use('/users', userRouter);
