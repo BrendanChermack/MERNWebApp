@@ -1,6 +1,6 @@
 :root {
-  --font-color: #333;
-  --background-color: #eee;
+  --font-color: #ffffff;
+  --background-color: #171717;
   --link-color: cornflowerblue;
 }
 body {
@@ -15,7 +15,7 @@ body {
 }
 [data-theme="dark"] {
   --font-color: #eee;
-  --background-color: #333;
+  --background-color: #262525;
   --link-color: lightblue;
 }
 
